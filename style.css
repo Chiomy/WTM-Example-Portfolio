@@ -1,0 +1,63 @@
+
+body {
+	height: 100%;
+  background-color: #ee8e79;
+  font-family: Lato, sans-serif;
+	color: white;
+  font-size: 14px;
+	line-height: 20px;
+  font-weight: 300;
+	display: block;
+}
+
+.center {
+	position: relative;
+	display: block;
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+img {
+	display: block;
+  width: 400px;
+  height: 400px;
+	margin-top: 3%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 200px;
+}
+
+h1 {
+	font-family: Montserrat, sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+	text-transform: uppercase;
+	line-height: 20px
+}
+
+span {
+	font-size: 18px;
+	font-weight: 700;
+  margin-bottom: 7px;
+}
+
+p {
+	margin-bottom: 13px;
+	font-family: Lato;
+	font-weight: 300;
+}
+
+.fa {
+	margin-left: 15px;
+	line-height: 40px;
+	color: white;
+}
+
+footer {
+	font-size: 11px;
+	margin-left: 100px
+}
+
+/*mobile view - Text aligns to center*/
+@media screen and (max-width: 430px) {
