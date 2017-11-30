@@ -55,9 +55,22 @@ p {
 }
 
 footer {
-	font-size: 11px;
+	font-size: 10px;
 	margin-left: 100px
 }
 
 /*mobile view - Text aligns to center*/
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 450px) {
+	.center {
+		width: 240px;
+	}
+	
+	img {
+    width: 240px;
+    height: auto;
+	}
+	
+	footer {
+	margin-left: 10px
+	}
+}
