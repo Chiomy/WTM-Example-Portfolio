@@ -64,13 +64,11 @@ footer {
 	.center {
 		width: 240px;
 	}
-	
 	img {
-    width: 240px;
-    height: auto;
+		width: 240px;
+		height: 240px;
 	}
-	
 	footer {
-	margin-left: 10px
+		margin-left: 10px;
 	}
 }
